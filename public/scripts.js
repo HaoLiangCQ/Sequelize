@@ -1,6 +1,6 @@
 async function getTable(){
 
-    const url = new URL('api/dining');
+    const url = new URL('/api/dining');
 
     await fetch(url)
     .then(async (response) => {
